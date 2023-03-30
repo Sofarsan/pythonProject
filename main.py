@@ -14,12 +14,14 @@ class Hero():
         print('Уровень здоровья:', self.health)
         print('Класс брони:', self.armor)
 
+    # проверка, жив ли персонаж
     def check_alive(self):
         if self.health > 0:
             return True
         else:
             return False
 
+    # нанесение удара:
     def strike(self, enemy):
         enemy.armor -= self.power
         if enemy.armor < 0:
