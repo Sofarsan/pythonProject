@@ -76,7 +76,7 @@ else:
 enemies = list()
 enemies.append(Warrior('Питер', 15, 0, 10))
 enemies.append(Warrior('Сержио', 10, 15, 5))
-enemies.append(Dragon('Дрогон', 1, 25, 60))
+enemies.append(Dragon('Дрогон', 1, 25 , 60))
 enemies.append(Dragon('Визерион', 1, 10, 30))
 
 while play:
